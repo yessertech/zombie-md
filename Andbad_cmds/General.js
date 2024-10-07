@@ -55,13 +55,13 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🎣" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Anbad", numero: "25576818788" },
+      { nom: "yesser", numero: "225685957360" },
       { nom: "᚛David᚜", numero: "255783394967" },
-      { nom: "owner Lazack md", numero: "255734980103" },
+      { nom: "yessertech", numero: "255621995482" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO ANDBAD MEDIA HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO ZOMBIES MEDIA HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING ANDBAD MD, HERE ARE OUR SUPPORTIVE CHANNEL\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m]") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING ANDBAD MD,MAKE SURE YOU FOLLOW THESE CHANNELS.\n\n https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING ZOMBIE MD, HERE ARE OUR SUPPORTIVE CHANNEL\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30]") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING ZOMBIE MD,MAKE SURE YOU FOLLOW THESE CHANNELS.\n\n https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30`},{quoted :ms})
 
 })
