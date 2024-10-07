@@ -47,7 +47,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   ⓐⓝⓓⓑⓐⓓ-ⓢⓣⓘⓒⓚⓔⓡ-ⓓⓛ
+      let msg = `   zombies pareee☠️
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "ⓐⓝⓓⓑⓐⓓ",
+            author: "yessertech",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -164,7 +164,7 @@ zokou({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
          if (!superUser) {
-    repondre("command reserved for the bot owner");
+    repondre("command reserved for the bot owner☠️");
     return;
   }
              
@@ -206,7 +206,7 @@ zokou({ nomCom: "unblock", categorie: "Mods" }, async (dest, zk, commandeOptions
   
     });
 
-zokou({ nomCom: "kickall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "kickall", categorie: 'Group', reaction: "☠️" }, async (dest, zk, commandeOptions) => {
 
   const { auteurMessage ,ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser,prefixe } = commandeOptions
 
@@ -487,7 +487,7 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
   
           let stickerMess = new Sticker(media, {
-            pack: 'BMW-MD-TAG',
+            pack: 'Zombie-MD-TAG',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",
@@ -539,7 +539,7 @@ zokou({
 
   if (alldata.length === 0 ) { repondre(`To activate or modify the mention; follow this syntax: mention link type message
   The different types are audio, video, image, and sticker.
-  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Beltah`) ; return}
+  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is yesser`) ; return}
 
       if(data.status == 'non') {
           etat = 'Desactived'
@@ -560,7 +560,7 @@ Link: ${url}
 
 To activate or modify the mention, follow this syntax: mention link type message
 The different types are audio, video, image, and sticker.
-Example: mention https://telegra.ph/file/52e3bb0ba3868d64df3f0.jpg image Hi, my name is Beltah
+Example: mention https://telegra.ph/file/52e3bb0ba3868d64df3f0.jpg image Hi, my name is yesser
 
 To stop the mention, use mention stop`;
 
