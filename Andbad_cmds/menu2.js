@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────《《ANDBAD MD》》────
+╭────《☠️zombie md☠️》────
 ┴  ╭─────────────
 │❒⁠⁠⁠⁠│ *ADMIN* : ${s.OWNER_NAME}
 │❒│⁠⁠⁠⁠ *CALENDER* : ${date}
@@ -41,13 +41,13 @@ const date = moment().format('DD/MM/YYYY');
 │❒│⁠⁠⁠⁠ *ORDERS* : ${cm.length} 
 │❒│⁠⁠⁠⁠ *SPACE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❒│⁠⁠⁠⁠ *CHROME* : ${os.platform()}
-│❒│⁠⁠⁠⁠ *THEME* : *ANDBADTHEME*
+│❒│⁠⁠⁠⁠ *THEME* : *zombie jps.*
 ┬  ╰──────────────
-╰─── ··《《ANDBAD MD》》··──\n`;
+╰─── ··《《ZOMBiE MD》》··──\n`;
     
 let menuMsg = `
  ─────────
-  *TEAM ANDBAD BOTS* 
+  *yesserteach support* 
  ─────────
 
 
@@ -66,7 +66,7 @@ let menuMsg = `
 
     menuMsg += `
 
-|⏣MADE EASY BY MR ANDBAD
+|🇹🇿 created by yessertech🤠
 *❒⁠⁠⁠⁠—————————— ❒⁠⁠⁠⁠——————————❒⁠⁠⁠⁠*
 `;
 
