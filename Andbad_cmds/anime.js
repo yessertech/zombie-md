@@ -130,7 +130,7 @@ zokou({
     const response = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${arg}&plot=full`);
     const imdbData = response.data;
 
-    let imdbInfo = "🅂🄴🄲🅁🄴🅃 🄼🄾🅅🄸🄴🅂 🄵🅁🄾🄼 🄼🅁 🄰🄽🄳🄱🄰🄳 🄼🄳\n";
+    let imdbInfo = "💀 SERIOUS MOVIE FOR YOU ☠️ proud by ZOMBIES paree\n";
     imdbInfo += " ``` 🄼🄾🅅🄸🄴```\n";
     imdbInfo += "*🅷🅴🆁🅴 🆈🅾🆄🆁🅴 🅼🅾🆅🅸🅴*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
@@ -171,7 +171,7 @@ zokou({
   const { arg, repondre,ms , nomAuteurMessage } = commandeOptions;
 
   if (!arg[0] || arg.length !== 1) {
-    repondre("Incorrect use. Example: .emojimix 😀;🥰");
+    repondre("Incorrect use. Example: .emojimix ☠️;💀");
     return;
   }
 
