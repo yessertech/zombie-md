@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *ANDBAD*`
+ *ZOMBIE MD*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -74,7 +74,7 @@ else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake thinks :)")
+         repondre("don't do fake thinks☠️ :)")
      }
  } else {
 
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' FVCK YOU IF YOU DONT FORK THIS BOT. ')
+repondre(' I EAT 💀YOU IF YOU DONT FORK THIS BOT. ')
 
 }
     });
