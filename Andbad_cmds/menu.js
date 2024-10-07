@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-> ANDBAD MD AVAILABLE MENUS* 
+> ☠️ ZOMBIES SERVICE COMMAND* 
 ╭─────────────────
 │❒⁠⁠⁠⁠╭─────────────
 │❒⁠⁠⁠⁠│▸ *MENU* 
@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 │❒⁠⁠⁠⁠│▸ *PLUGINS* : ${cm.length} 
 │❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
-│❒⁠⁠⁠⁠│▸ *THEME* : *ANDBADTHEMES*
+│❒⁠⁠⁠⁠│▸ *THEME* : *zombie jps.*
 │❒⁠⁠⁠⁠╰──────────────
 ╰──────────────────\n`;
     
@@ -63,7 +63,7 @@ let menuMsg = `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> MADE EASY BY MR ANDBAD 
+    menuMsg += `> created by yessertech
 `;
 
    var lien = mybotpic();
