@@ -1,9 +1,9 @@
 {
-  "name":"ANDBAD MD",
-  "description":"Deploy now your bot, ANDBAD was developed by MrAndbad himself.Make sure you fill all valuables to avoid bot from sleeping. ",
+  "name":"ZOMBIE MD",
+  "description":"Deploy now your bot, ZOMBIEMD was developed by yessertech himself.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/L4U2K76.jpeg",
-  "repository":"https://github.com/Mrandbad/ANDBAD-MD-V1",
+  "logo":"https://files.catbox.moe/won03k.jpeg",
+  "repository":"https://github.com/yessertech/zombie-md",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":" ANDBAD MD",
+      "value":" ZOMBIE MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.imgur.com/L4U2K76.jpeg",
+      "value":"https://files.catbox.moe/won03k.jpeg",
       "required":false
        
      },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "ANDBAD TEAM SUPPORT"
+    "value": "yessertech🤠"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255768318788,255734980103"
+    "value": "255621995482"
   },
     "WARN_COUNT":
   {
