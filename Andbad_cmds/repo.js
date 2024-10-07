@@ -34,23 +34,22 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*AVAILABLE REPO AND GROUPS* 
+*☠️ ZOMBIE REPO SITE☠️* 
 ╭─────────────────
 │❒⁠⁠⁠⁠╭─────────────
-│❒⁠⁠⁠⁠│▸ *CHANNEL* 
-│❒⁠⁠⁠⁠│▸ *GROUP* 
-│❒⁠⁠⁠⁠│▸ *REPO*
+│❒⁠⁠⁠⁠│▸ *☠️☠️☠️☠️☠️* 
+│❒⁠⁠⁠⁠│▸ *💀💀💀💀💀* 
+│❒⁠⁠⁠⁠│▸ *☠️☠️☠️☠️*
 │❒⁠⁠⁠⁠╰──────────────
-│❒⁠⁠⁠⁠│▸ *CHANNEL* :  https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m
-│❒⁠⁠⁠⁠│▸ *GROUP* : https://chat.whatsapp.com/DU79JfdnOI83ZFVAyD74Mo
-│❒⁠⁠⁠⁠│▸ *REPO* : https://github.com/Mrandbad/ANDBAD-MD-V1
-│❒⁠⁠⁠⁠│▸ *YTUBE* : https://www.youtube.com/@andbadtz
+│❒⁠⁠⁠⁠│▸ *CHANNEL* :  https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30 │❒⁠⁠⁠⁠│▸ *GROUP* : https://chat.whatsapp.com/KrseXOOYu2nKOkht0qonhY
+│❒⁠⁠⁠⁠│▸ *REPO* : https://github.com/yessertech/zombie-md
+│❒⁠⁠⁠⁠│▸ *YTUBE* : https://www.youtube.com/@Yesserboy92
 │❒⁠⁠⁠⁠╰──────────────
 ╰──────────────────\n
   `;
     
 let menuMsg = `
-     MADE EASY BY MR ANDBAD
+     role by yesserteach
 
 ❒────────────────────❒`;
 
