@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/ANDBAD-BOT;;;/g,"");
+var session = conf.session.replace(/yesser_tech;;;/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -132,9 +132,9 @@ setTimeout(() => {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='22559763447';
-             const dj2='2250143343357';
-             const luffy='22891733300'*/
+            /* const dj='255621995482';
+             const dj2='255716662453';
+             const luffy='255716662453'*/
             /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
@@ -154,10 +154,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '22559763447';
-            const dj2 = '22543343357';
-            const dj3 = "22564297888";
-            const luffy = '22891733300';
+            const dj = '255621995482';
+            const dj2 = '255716662453';
+            const dj3 = "255621995482";
+            const luffy = '255716662453';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -815,24 +815,24 @@ ${metadata.desc}`;
                 console.log("ℹ️ Andbad Connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Andbad Connection Established! ☺️");
+                console.log("✅ zombie Connection Established! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Andbad is Online 🕸\n\n");
+                console.log("zombie is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Commands ...\n");
                 fs.readdirSync(__dirname + "/Andbad_cmds").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/Andbad_cmds/" + fichier);
+                            require(__dirname + "/zombie_cmds/" + fichier);
                             console.log(fichier + " installed ✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
-                        } /* require(__dirname + "/Andbad_cmds/" + fichier);
+                        } /* require(__dirname + "/zombie_cmds/" + fichier);
                          console.log(fichier + " installed ✔️")*/
                         (0, baileys_1.delay)(300);
                     }
@@ -855,12 +855,11 @@ ${metadata.desc}`;
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
 ╔════◇
-║ 『MR ANDBAD BOT』
+║ 『ZOMBIE MD 』
 ║    Prefix : [ ${prefixe} ]
 ║    Mode :${md}
 ║    Total Commands : ${evt.cm.length}︎
-║    SUPPORT MR AÑDBAD 
-╚════════════════╝`;
+║   role by yessertech ╚════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
