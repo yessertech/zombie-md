@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/yesser_tech;;;/g,"");
+var session = conf.session.replace(/Andbad_BOT;;;/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{Andbad-md}...[][]");
+            console.log("\t [][]...{zombie-md}...[][]");
             console.log("=========== Nouveau message ===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -812,7 +812,7 @@ ${metadata.desc}`;
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Andbad Connecting...");
+                console.log("ℹ️ zombie Connecting...");
             }
             else if (connection === 'open') {
                 console.log("✅ zombie Connection Established! ☺️");
@@ -824,7 +824,7 @@ ${metadata.desc}`;
                 console.log("zombie is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Commands ...\n");
-                fs.readdirSync(__dirname + "/Andbad_cmds").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/zombie_cmds").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/zombie_cmds/" + fichier);
